@@ -5,7 +5,7 @@
 
 #define WIDTH 900
 #define HEIGHT 600
-#define HOW_MANY 100 //  how many histograms
+#define HOW_MANY 500 //  how many histograms
 
 
 
@@ -115,7 +115,7 @@ int main()
 			ClearBackground(BLACK);
       DrawInit(histograms);
       tri(histograms);
-      WaitTime(1);
+      WaitTime(0.5);
 		EndDrawing();
   }
 }
